@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+  <Appenders>
+ 
+    
+      <Console name="LogToConsole" target="SYSTEM_OUT">
+        <PatternLayout pattern="%d - %c [%M] -(%p) %m %n "/>
+      </Console>  
+      
+      <File name="LogToFile" fileName="D://logs/myapp.log">
+        <PatternLayout pattern="%d - %c [%M] -(%p) %m %n "/>
+      </File>
+      
+ 
+  </Appenders>
+  <Loggers>
+    <Root level="INFO">
+      <AppenderRef ref="LogToConsole"/>
+      <AppenderRef ref="LogToFile"/>
+    </Root>
+  </Loggers>
+</Configuration>

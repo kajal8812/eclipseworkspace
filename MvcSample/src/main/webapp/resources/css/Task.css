@@ -1,0 +1,333 @@
+.row1 {
+    display: flex;
+    flex-direction: rows;
+
+}
+
+.row2 {
+    display: flex;
+    flex-direction: rows;
+
+}
+
+.row3 {
+    display: flex;
+    flex-direction: rows;
+}
+
+.row4 {
+    display: flex;
+    flex-direction: rows;
+}
+
+.row5 {
+    display: flex;
+    flex-direction: rows;
+}
+
+.col1 {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding-right: 10%;
+    padding-left: 5%;
+
+}
+
+.col2 {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding-right: 10%;
+}
+
+.rc {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+.r1c1 {
+    display: flex;
+    flex-direction: column;
+    width: 355px;
+    padding-right: 150px;
+
+
+
+
+
+
+
+}
+
+
+.r1c2 {
+    display: flex;
+    flex-direction: column;
+    width: 225px;
+    padding-right: 150px;
+
+}
+
+.r1c3 {
+    display: flex;
+    flex-direction: column;
+    width: 225px;
+    padding-right: 150px;
+}
+
+.r1c4 {
+    display: flex;
+    flex-direction: column;
+    width: 225px;
+    padding-right: 150px;
+}
+
+.r2c1 {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    padding-right: 150px;
+    padding-top: -22px;
+}
+
+.r2c2 {
+    display: flex;
+    flex-direction: column;
+    width: 225px;
+    padding-right: 150px;
+}
+
+.r2c3 {
+    padding-top: 20px;
+    width: 225px;
+    padding-right: 150px;
+
+}
+
+.r3c1 {
+    display: flex;
+    flex-direction: column;
+    width: 225px;
+    padding-right: 150px;
+}
+
+.r3c2 {
+    display: flex;
+    flex-direction: column;
+    width: 225px;
+    padding-right: 150px;
+}
+
+.r4c1 {
+    display: flex;
+    flex-direction: column;
+    width: 225px;
+    padding-right: 150px;
+}
+
+.r4c2 {
+
+    width: 225px;
+    padding-right: 100px;
+
+    padding-top: 0px;
+    margin-right: 120px;
+
+}
+
+.r4c2f {
+    display: flex;
+    flex-direction: rows;
+}
+
+.r4c3 {
+    display: flex;
+    flex-direction: column;
+    width: 225px;
+    padding-right: 150px;
+}
+
+.r5c1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 150px;
+}
+
+.r5c2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 150px;
+}
+
+.col1r1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.col1r2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.col1r3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.col1r4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.col2r1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.col2r2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.col2r3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.col1r4up {
+    display: flex;
+    flex-direction: row;
+
+
+
+}
+
+.col1r4-1 {
+    border: 1px solid white;
+    border-radius: 2px;
+    color: white;
+    background-color: blue;
+    margin-right: 100px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.col1r4-2 {
+    border: 1px solid white;
+    border-radius: 2px;
+    color: white;
+    background-color: blue;
+    margin-right: 100px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+
+
+span {
+    color: red;
+}
+
+#od {
+    background-color: rgb(197, 204, 210);
+    border: 1px solid whitesmoke;
+    margin: -10px 2px;
+    padding: -20px 20px;
+
+
+}
+
+input[type=submit] {
+    float: right;
+    cursor: pointer;
+    padding: 16px 32px;
+    margin: 20px 10px;
+    background-color: aliceblue;
+}
+
+/* .error {
+    color: red;
+
+
+} */
+
+#back {
+    float: right;
+    cursor: pointer;
+    padding: 16px 32px;
+    margin: 20px 10px;
+    background-color: aliceblue;
+}
+
+
+.body {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid lightgrey;
+    margin-top: -6px;
+    padding-top: -35px;
+    width: 100%;
+    margin-left: -6px;
+    padding-bottom: -15px;
+
+
+}
+
+.ncc {
+
+    width: 500px;
+    padding-top: 10px;
+}
+
+.requisitioncreation {
+    /* color: aqua; */
+    color: rgb(27, 160, 165);
+    padding-top: -5px;
+    width: 555px;
+}
+
+.nameimage {
+
+
+
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.name {
+
+    margin-right: 15px;
+    padding-top: 15px;
+}
+
+.image {
+    padding-right: 2px;
+    padding-top: -25px;
+}
+
+#clientname {
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+#requestor {
+
+    margin-top: 2px;
+}
+
+ #attr {
+    border: 1px solid lightblue;
+    margin: 25px 15px;
+    padding-left: 10px;
+    height: 1055px;
+    padding-bottom:80px;
+}
